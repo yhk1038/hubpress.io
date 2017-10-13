@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
-    <title>지킬(Jekyll) 없이 깃헙 블로그 제작하기</title>
-    <meta name="description" content="" />
-
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="shortcut icon" href="https://yhk1038.github.io/favicon.ico">
-
-    <link rel="stylesheet" type="text/css" href="//yhk1038.github.io/themes/casper/assets/css/screen.css?v=1507894312684" />
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
-
+    <title>지킬(Jekyll) 없이 깃헙 블로그 제작하기</title>
+    <meta name="description" content="" />
+    <link href="//fonts.googleapis.com/css?family=Noto+Sans:300,400,700" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic" rel="stylesheet" type="text/css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link href="//yhk1038.github.io/themes/saga/assets/css/style.css?v=1507898973906" rel="stylesheet" type="text/css">
+    <link href="//yhk1038.github.io/themes/saga/assets/css/animate.min.css?v=1507898973906" rel="stylesheet" type="text/css">
+    <link href="https://yhk1038.github.io/favicon.ico" rel="shortcut icon">
     <link rel="canonical" href="https://yhk1038.github.io/2019/01/31/how-to-make-no-jekyll-github-blog.html" />
     <meta name="referrer" content="origin" />
     
+    <meta property="og:site_name" content="Freddy의 개발 블로그" />
     <meta property="og:type" content="article" />
     <meta property="og:title" content="지킬(Jekyll) 없이 깃헙 블로그 제작하기" />
     <meta property="og:description" content="깃헙 도메인을 사용해 블로그를 만들고 싶지만 지킬의 방식이 익숙하지 않아 망설이던 차에, 지킬 없이도 깃헙 블로그를 만들 수 있게 해주는 HubPress라는 놈을 발견했는데요. 사용해보니 글쓰기에 집중하고 싶었던 제게는 꽤 괜찮은 것 같아 소개합니다. 저 처럼 어렵지 않게 블로그를 만들고, 글쓰기에 집중하고자 하시는 분들께 매우 추천드립니다. 좀 더 확인해봐야 하지만, 우선은" />
@@ -37,6 +37,7 @@
 {
     "@context": "http://schema.org",
     "@type": "Article",
+    "publisher": "Freddy의 개발 블로그",
     "author": {
         "@type": "Person",
         "name": "dockgi(yonghyun)",
@@ -53,36 +54,34 @@
     </script>
 
     <meta name="generator" content="HubPress" />
-    <link rel="alternate" type="application/rss+xml" title="" href="https://yhk1038.github.io/rss/" />
+    <link rel="alternate" type="application/rss+xml" title="Freddy의 개발 블로그" href="https://yhk1038.github.io/rss/" />
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/styles/atom-one-dark.min.css">
     
         <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
 </head>
-<body class="post-template tag-Hub-Press tag-Blog tag-Open-Source tag-Github nav-closed">
-
-    
-
-    <div class="site-wrapper">
-
+<body class="post-template tag-Hub-Press tag-Blog tag-Open-Source tag-Github">
+    <header id="header" class="animated fadeIn">
+    <div class="header-background">
+    <section class="blog-content">
+        <a id="site-url" class="blog-title" href="https://yhk1038.github.io">Freddy의 개발 블로그</a>
+        <span class="blog-description"></span>
+        <nav class="links fadeIn animated">
+            <ul>
+                <li class="rss"><a title="RSS Feed" href="/rss/"><i class="fa fa-fw fa-rss-square"></i></a></li>
         
-
-
-<header class="main-header post-head no-cover">
-    <nav class="main-nav  clearfix">
-        
-    </nav>
+            </ul>
+        </nav>
+    </section>
+    <section class="header-content">
+        <h1 class="post-title animated fadeInUp">지킬(Jekyll) 없이 깃헙 블로그 제작하기</h1>
+        <span class="post-data"><span class="date animated fadeInUp"><i class="fa fa-clock-o"></i> <time class="timesince date" data-timesince="1548860400" datetime="2019-01-31T00:00" title="31 January 2019">in a year</time></span>
+            <span class="tags animated fadeInUp"><i class="fa fa-tags"></i> <a href="https://yhk1038.github.io/tag/Hub-Press/">HubPress</a>, <a href="https://yhk1038.github.io/tag/Blog/">Blog</a>, <a href="https://yhk1038.github.io/tag/Open-Source/">Open_Source</a>, <a href="https://yhk1038.github.io/tag/Github/">Github</a></span>
+            <span class="author animated fadeInUp"><i class="fa fa-user"></i> <a href="https://yhk1038.github.io/author/yhk1038/">dockgi(yonghyun)</a></span></span>
+    </section>
+    </div>
 </header>
-
-<main class="content" role="main">
-    <article class="post tag-Hub-Press tag-Blog tag-Open-Source tag-Github">
-
-        <header class="post-header">
-            <h1 class="post-title">지킬(Jekyll) 없이 깃헙 블로그 제작하기</h1>
-            <section class="post-meta">
-                <time class="post-date" datetime="2019-01-31">31 January 2019</time>  on <a href="https://yhk1038.github.io/tag/Hub-Press/">HubPress</a>, <a href="https://yhk1038.github.io/tag/Blog/">Blog</a>, <a href="https://yhk1038.github.io/tag/Open-Source/">Open_Source</a>, <a href="https://yhk1038.github.io/tag/Github/">Github</a>
-            </section>
-        </header>
-
+<main id="main" class="content">
+    <article itemtype="http://schema.org/BlogPosting" class="animated fadeIn content post post tag-Hub-Press tag-Blog tag-Open-Source tag-Github">
         <section class="post-content">
             <div id="preamble">
 <div class="sectionbody">
@@ -130,61 +129,20 @@
 </div>
         </section>
 
-        <footer class="post-footer">
-
-
-            <figure class="author-image">
-                <a class="img" href="https://yhk1038.github.io/author/yhk1038/" style="background-image: url(https://avatars1.githubusercontent.com/u/13119624?v&#x3D;4)"><span class="hidden">dockgi(yonghyun)'s Picture</span></a>
-            </figure>
-
-            <section class="author">
-                <h4><a href="https://yhk1038.github.io/author/yhk1038/">dockgi(yonghyun)</a></h4>
-
-                    <p>백수가 된 웹 개발자 입니다.
-I&#x27;m web developer. Backatit.</p>
-                <div class="author-meta">
-                    <span class="author-location icon-location">Jung-gu, Seoul, Republic Of Korea</span>
-                    
-                </div>
-            </section>
-
-
-            <section class="share">
-                <h4>Share this post</h4>
-                <a class="icon-twitter" href="https://twitter.com/intent/tweet?text=%EC%A7%80%ED%82%AC(Jekyll)%20%EC%97%86%EC%9D%B4%20%EA%B9%83%ED%97%99%20%EB%B8%94%EB%A1%9C%EA%B7%B8%20%EC%A0%9C%EC%9E%91%ED%95%98%EA%B8%B0&amp;url=https://yhk1038.github.io/2019/01/31/how-to-make-no-jekyll-github-blog.html"
-                    onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
-                    <span class="hidden">Twitter</span>
-                </a>
-                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://yhk1038.github.io/2019/01/31/how-to-make-no-jekyll-github-blog.html"
-                    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
-                    <span class="hidden">Facebook</span>
-                </a>
-                <a class="icon-google-plus" href="https://plus.google.com/share?url=https://yhk1038.github.io/2019/01/31/how-to-make-no-jekyll-github-blog.html"
-                   onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
-                    <span class="hidden">Google+</span>
-                </a>
-            </section>
-
-        </footer>
-
-
     </article>
 
 </main>
-
-<aside class="read-next">
-</aside>
-
-
-
-        <footer class="site-footer clearfix">
-            <section class="copyright"><a href="https://yhk1038.github.io"></a> &copy; 2017</section>
-            <section class="poweredby">Proudly published with <a href="http://hubpress.io">HubPress</a></section>
-        </footer>
-
-    </div>
-
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <footer class="animated fadeIn" id="footer">
+        <section class="colophon">
+          <section class="copyright">Copyright &copy; <span itemprop="copyrightHolder">Freddy의 개발 블로그</span>. <span rel="license">All Rights Reserved</span>.</section>
+          <section class="poweredby">Published with <a class="icon-ghost" href="http://hubpress.io">HubPress</a></section>
+        </section>
+        <section class="bottom">
+          <section class="attribution">
+            <a href="http://github.com/Reedyn/Saga">Built with <i class="fa fa-heart"></i> and Free and Open-Source Software</a>.
+          </section>
+        </section>
+    </footer>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/highlight.min.js?v="></script> 
       <script type="text/javascript">
         jQuery( document ).ready(function() {
@@ -197,9 +155,7 @@ I&#x27;m web developer. Backatit.</p>
 
         hljs.initHighlightingOnLoad();
       </script>
-
-    <script type="text/javascript" src="//yhk1038.github.io/themes/casper/assets/js/jquery.fitvids.js?v=1507894312684"></script>
-    <script type="text/javascript" src="//yhk1038.github.io/themes/casper/assets/js/index.js?v=1507894312684"></script>
-
+    <script src="//yhk1038.github.io/themes/saga/assets/js/scripts.js?v=1507898973906"></script>
+    
 </body>
 </html>
