@@ -19,12 +19,12 @@
 자, 이제 https://[계정].github.io/ 로 접속해 보세요. 블로그가 나타날겁니다! 쉽지 않나요? 하지만 여기서 끝은 아니고 몇 가지 간단한 설정을 해줘야 합니다.
 
 `hubpress/config.json` 의 내용을 다음과 같이 변경합니다. 현재 branch는 master에 있다는 점을 기억해주세요!
-![이미지](https://camo.githubusercontent.com/0bfbd6132a118a272ba2506f4319fbec29730a06/687474703a2f2f68756270726573732e696f2f696d672f656469742d636f6e6669672e706e67)
+::image::https://camo.githubusercontent.com/0bfbd6132a118a272ba2506f4319fbec29730a06/687474703a2f2f68756270726573732e696f2f696d672f656469742d636f6e6669672e706e67[]
 
 그리고 다시 Ropo Setting으로 돌아가, default branch를 `gh-pages`로 변경후 업데이트 버튼을 눌러주세요. 그러면 전체 Repo의 내용도 브런치에 맞게 바뀔 겁니다.
 
 마지막으로, 다시 `hubpress/config.json` 의 내용을 다음과 같이 변경합니다. 이번에는 branch가 gh-pages에 있습니다.
-![이미지](https://camo.githubusercontent.com/1293a5a6442a2cf92494fb0e182290cd8a97f969/687474703a2f2f68756270726573732e696f2f696d672f656469742d636f6e6669672d67682d70616765732e706e67)
+::image::https://camo.githubusercontent.com/1293a5a6442a2cf92494fb0e182290cd8a97f969/687474703a2f2f68756270726573732e696f2f696d672f656469742d636f6e6669672d67682d70616765732e706e67[]
 
 수고하셨습니다. 이게 끝입니다. 여러분의 깃헙 도메인으로 블로그가 생성이 끝났습니다.
 
