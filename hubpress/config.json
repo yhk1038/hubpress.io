@@ -2,10 +2,11 @@
   "meta": {
     "username": "yhk1038",
     "repositoryName": "yhk1038.github.io",
-    "branch": "master"
+    "branch": "master",
+    "cname": ""
   },
   "theme": {
-    "name": "casper"
+    "name": "saga"
   },
   "urls": {
     "site": "https://yhk1038.github.io",
@@ -22,5 +23,27 @@
       null,
       null
     ]
+  },
+  "site": {
+    "title": "Freddy의 개발 블로그",
+    "description": "",
+    "logo": "",
+    "cover": "https://farm4.staticflickr.com/3852/14742219892_8a78b3904e_k.jpg",
+    "delay": "",
+    "postsPerPage": "",
+    "googleAnalytics": "",
+    "disqus": ""
+  },
+  "socialnetwork": {
+    "email": "",
+    "github": "",
+    "twitter": "",
+    "facebook": "",
+    "googleplus": "",
+    "instagram": "",
+    "pinterest": "",
+    "flickr": "",
+    "linkedin": "",
+    "stackoverflow": ""
   }
 }
