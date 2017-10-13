@@ -1,5 +1,5 @@
 = 지킬 없이 깃헙 블로그 제작하기
-:hp-image: images/hubpress.png
+:hp-image: https://raw.githubusercontent.com/yhk1038/yhk1038.github.io/gh-pages/images/hubpress.png
 :published_at: 2019-01-31
 :hp-tags: HubPress, Blog, Open_Source, Github
 :hp-alt-title: how to make no jekyll github blog
