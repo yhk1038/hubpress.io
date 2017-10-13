@@ -1,11 +1,9 @@
-// = 지킬 없이 깃헙 블로그 제작하기
+= 지킬 없이 깃헙 블로그 제작하기
 // See https://hubpress.gitbooks.io/hubpress-knowledgebase/content/ for information about the parameters.
 :hp-image: /covers/cover.png
 :published_at: 2019-01-31
 :hp-tags: HubPress, Blog, Open_Source, Github
 :hp-alt-title: how to make no jekyll github blog
-
-# 지킬(Jekyll) 없이 깃헙 블로그 제작하기
 
 깃헙 도메인을 사용해 블로그를 만들고 싶지만 지킬의 방식이 익숙하지 않아 망설이던 차에, 지킬 없이도 깃헙 블로그를 만들 수 있게 해주는 HubPress라는 놈을 발견했는데요. 사용해보니 글쓰기에 집중하고 싶었던 제게는 꽤 괜찮은 것 같아 소개합니다. 저 처럼 어렵지 않게 블로그를 만들고, 글쓰기에 집중하고자 하시는 분들께 매우 추천드립니다.
 
