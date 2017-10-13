@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Freddy의 개발 블로그]]></title><description><![CDATA[Freddy의 개발 블로그]]></description><link>https://yhk1038.github.io</link><image><url>https://farm4.staticflickr.com/3852/14742219892_8a78b3904e_k.jpg</url><title>Freddy의 개발 블로그</title><link>https://yhk1038.github.io</link></image><generator>RSS for Node</generator><lastBuildDate>Fri, 13 Oct 2017 14:25:03 GMT</lastBuildDate><atom:link href="https://yhk1038.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[지킬 없이 깃헙 블로그 제작하기]]></title><description><![CDATA[<div id="preamble">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Freddy의 개발 블로그]]></title><description><![CDATA[Freddy의 개발 블로그]]></description><link>https://yhk1038.github.io</link><image><url>https://farm4.staticflickr.com/3852/14742219892_8a78b3904e_k.jpg</url><title>Freddy의 개발 블로그</title><link>https://yhk1038.github.io</link></image><generator>RSS for Node</generator><lastBuildDate>Fri, 13 Oct 2017 14:29:46 GMT</lastBuildDate><atom:link href="https://yhk1038.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[지킬 없이 깃헙 블로그 제작하기]]></title><description><![CDATA[<div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
 <p>깃헙 도메인을 사용해 블로그를 만들고 싶지만 지킬의 방식이 익숙하지 않아 망설이던 차에, 지킬 없이도 깃헙 블로그를 만들 수 있게 해주는 HubPress라는 놈을 발견했는데요. 사용해보니 글쓰기에 집중하고 싶었던 제게는 꽤 괜찮은 것 같아 소개합니다. 저 처럼 어렵지 않게 블로그를 만들고, 글쓰기에 집중하고자 하시는 분들께 매우 추천드립니다.</p>
@@ -25,14 +25,14 @@
 </div>
 <div class="paragraph">
 <p><code>hubpress/config.json</code> 의 내용을 다음과 같이 변경합니다. 현재 branch는 master에 있다는 점을 기억해주세요!
-![이미지](<a href="https://camo.githubusercontent.com/0bfbd6132a118a272ba2506f4319fbec29730a06/687474703a2f2f68756270726573732e696f2f696d672f656469742d636f6e6669672e706e67" class="bare">https://camo.githubusercontent.com/0bfbd6132a118a272ba2506f4319fbec29730a06/687474703a2f2f68756270726573732e696f2f696d672f656469742d636f6e6669672e706e67</a>)</p>
+::image::https://camo.githubusercontent.com/0bfbd6132a118a272ba2506f4319fbec29730a06/687474703a2f2f68756270726573732e696f2f696d672f656469742d636f6e6669672e706e67[]</p>
 </div>
 <div class="paragraph">
 <p>그리고 다시 Ropo Setting으로 돌아가, default branch를 <code>gh-pages</code>로 변경후 업데이트 버튼을 눌러주세요. 그러면 전체 Repo의 내용도 브런치에 맞게 바뀔 겁니다.</p>
 </div>
 <div class="paragraph">
 <p>마지막으로, 다시 <code>hubpress/config.json</code> 의 내용을 다음과 같이 변경합니다. 이번에는 branch가 gh-pages에 있습니다.
-![이미지](<a href="https://camo.githubusercontent.com/1293a5a6442a2cf92494fb0e182290cd8a97f969/687474703a2f2f68756270726573732e696f2f696d672f656469742d636f6e6669672d67682d70616765732e706e67" class="bare">https://camo.githubusercontent.com/1293a5a6442a2cf92494fb0e182290cd8a97f969/687474703a2f2f68756270726573732e696f2f696d672f656469742d636f6e6669672d67682d70616765732e706e67</a>)</p>
+::image::https://camo.githubusercontent.com/1293a5a6442a2cf92494fb0e182290cd8a97f969/687474703a2f2f68756270726573732e696f2f696d672f656469742d636f6e6669672d67682d70616765732e706e67[]</p>
 </div>
 <div class="paragraph">
 <p>수고하셨습니다. 이게 끝입니다. 여러분의 깃헙 도메인으로 블로그가 생성이 끝났습니다.</p>
