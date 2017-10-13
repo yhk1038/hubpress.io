@@ -1,6 +1,6 @@
 = 지킬 없이 깃헙 블로그 제작하기
 // See https://hubpress.gitbooks.io/hubpress-knowledgebase/content/ for information about the parameters.
-:hp-image:https://cloud.githubusercontent.com/assets/2006548/12901085/cc5ee908-ceb9-11e5-9d8b-c526f081f1e9.png
+:hp-image:hubpress.png
 :published_at: 2019-01-31
 :hp-tags: HubPress, Blog, Open_Source, Github
 :hp-alt-title: how to make no jekyll github blog
